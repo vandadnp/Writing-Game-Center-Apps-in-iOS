@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		822F0445133F502900BC9781 /* RootViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 822F0443133F502900BC9781 /* RootViewController_iPhone.m */; };
+		822F0446133F502900BC9781 /* RootViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 822F0444133F502900BC9781 /* RootViewController_iPhone.xib */; };
+		822F04BF133F9F5B00BC9781 /* RootViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 822F04BD133F9F5B00BC9781 /* RootViewController_iPad.m */; };
+		822F04C0133F9F5B00BC9781 /* RootViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 822F04BE133F9F5B00BC9781 /* RootViewController_iPad.xib */; };
+		82407969133E1632000DFD7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82407968133E1632000DFD7C /* UIKit.framework */; };
+		8240796B133E1632000DFD7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8240796A133E1632000DFD7C /* Foundation.framework */; };
+		8240796D133E1632000DFD7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8240796C133E1632000DFD7C /* CoreGraphics.framework */; };
+		82407973133E1632000DFD7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82407971133E1632000DFD7C /* InfoPlist.strings */; };
+		82407976133E1632000DFD7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82407975133E1632000DFD7C /* main.m */; };
+		82407979133E1632000DFD7C /* GameAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82407978133E1632000DFD7C /* GameAppAppDelegate.m */; };
+		8240797D133E1632000DFD7C /* GameAppAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240797C133E1632000DFD7C /* GameAppAppDelegate_iPhone.m */; };
+		82407980133E1632000DFD7C /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8240797E133E1632000DFD7C /* MainWindow_iPhone.xib */; };
+		82407984133E1632000DFD7C /* GameAppAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 82407983133E1632000DFD7C /* GameAppAppDelegate_iPad.m */; };
+		82407987133E1632000DFD7C /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82407985133E1632000DFD7C /* MainWindow_iPad.xib */; };
+		82407999133E1C01000DFD7C /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82407998133E1C01000DFD7C /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		822F0442133F502900BC9781 /* RootViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController_iPhone.h; sourceTree = "<group>"; };
+		822F0443133F502900BC9781 /* RootViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController_iPhone.m; sourceTree = "<group>"; };
+		822F0444133F502900BC9781 /* RootViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController_iPhone.xib; sourceTree = "<group>"; };
+		822F04BC133F9F5B00BC9781 /* RootViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController_iPad.h; sourceTree = "<group>"; };
+		822F04BD133F9F5B00BC9781 /* RootViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController_iPad.m; sourceTree = "<group>"; };
+		822F04BE133F9F5B00BC9781 /* RootViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController_iPad.xib; sourceTree = "<group>"; };
+		82407964133E1632000DFD7C /* GameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82407968133E1632000DFD7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8240796A133E1632000DFD7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8240796C133E1632000DFD7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82407970133E1632000DFD7C /* GameApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameApp-Info.plist"; sourceTree = "<group>"; };
+		82407972133E1632000DFD7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82407974133E1632000DFD7C /* GameApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameApp-Prefix.pch"; sourceTree = "<group>"; };
+		82407975133E1632000DFD7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82407977133E1632000DFD7C /* GameAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameAppAppDelegate.h; sourceTree = "<group>"; };
+		82407978133E1632000DFD7C /* GameAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameAppAppDelegate.m; sourceTree = "<group>"; };
+		8240797B133E1632000DFD7C /* GameAppAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameAppAppDelegate_iPhone.h; path = iPhone/GameAppAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		8240797C133E1632000DFD7C /* GameAppAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameAppAppDelegate_iPhone.m; path = iPhone/GameAppAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		8240797F133E1632000DFD7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		82407982133E1632000DFD7C /* GameAppAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameAppAppDelegate_iPad.h; path = iPad/GameAppAppDelegate_iPad.h; sourceTree = "<group>"; };
+		82407983133E1632000DFD7C /* GameAppAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameAppAppDelegate_iPad.m; path = iPad/GameAppAppDelegate_iPad.m; sourceTree = "<group>"; };
+		82407986133E1632000DFD7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		82407998133E1C01000DFD7C /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82407961133E1631000DFD7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82407999133E1C01000DFD7C /* GameKit.framework in Frameworks */,
+				82407969133E1632000DFD7C /* UIKit.framework in Frameworks */,
+				8240796B133E1632000DFD7C /* Foundation.framework in Frameworks */,
+				8240796D133E1632000DFD7C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82407959133E1631000DFD7C = {
+			isa = PBXGroup;
+			children = (
+				8240796E133E1632000DFD7C /* GameApp */,
+				82407967133E1632000DFD7C /* Frameworks */,
+				82407965133E1632000DFD7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82407965133E1632000DFD7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82407964133E1632000DFD7C /* GameApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82407967133E1632000DFD7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82407998133E1C01000DFD7C /* GameKit.framework */,
+				82407968133E1632000DFD7C /* UIKit.framework */,
+				8240796A133E1632000DFD7C /* Foundation.framework */,
+				8240796C133E1632000DFD7C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8240796E133E1632000DFD7C /* GameApp */ = {
+			isa = PBXGroup;
+			children = (
+				82407977133E1632000DFD7C /* GameAppAppDelegate.h */,
+				82407978133E1632000DFD7C /* GameAppAppDelegate.m */,
+				8240797A133E1632000DFD7C /* iPhone */,
+				82407981133E1632000DFD7C /* iPad */,
+				8240796F133E1632000DFD7C /* Supporting Files */,
+			);
+			path = GameApp;
+			sourceTree = "<group>";
+		};
+		8240796F133E1632000DFD7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82407970133E1632000DFD7C /* GameApp-Info.plist */,
+				82407971133E1632000DFD7C /* InfoPlist.strings */,
+				82407974133E1632000DFD7C /* GameApp-Prefix.pch */,
+				82407975133E1632000DFD7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8240797A133E1632000DFD7C /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				8240797B133E1632000DFD7C /* GameAppAppDelegate_iPhone.h */,
+				8240797C133E1632000DFD7C /* GameAppAppDelegate_iPhone.m */,
+				8240797E133E1632000DFD7C /* MainWindow_iPhone.xib */,
+				822F0442133F502900BC9781 /* RootViewController_iPhone.h */,
+				822F0443133F502900BC9781 /* RootViewController_iPhone.m */,
+				822F0444133F502900BC9781 /* RootViewController_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		82407981133E1632000DFD7C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				82407982133E1632000DFD7C /* GameAppAppDelegate_iPad.h */,
+				82407983133E1632000DFD7C /* GameAppAppDelegate_iPad.m */,
+				82407985133E1632000DFD7C /* MainWindow_iPad.xib */,
+				822F04BC133F9F5B00BC9781 /* RootViewController_iPad.h */,
+				822F04BD133F9F5B00BC9781 /* RootViewController_iPad.m */,
+				822F04BE133F9F5B00BC9781 /* RootViewController_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82407963133E1631000DFD7C /* GameApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8240798A133E1632000DFD7C /* Build configuration list for PBXNativeTarget "GameApp" */;
+			buildPhases = (
+				82407960133E1631000DFD7C /* Sources */,
+				82407961133E1631000DFD7C /* Frameworks */,
+				82407962133E1631000DFD7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameApp;
+			productName = GameApp;
+			productReference = 82407964133E1632000DFD7C /* GameApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8240795B133E1631000DFD7C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8240795E133E1631000DFD7C /* Build configuration list for PBXProject "Supporting Multiplayer Games and Matchmaking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82407959133E1631000DFD7C;
+			productRefGroup = 82407965133E1632000DFD7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82407963133E1631000DFD7C /* GameApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82407962133E1631000DFD7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82407973133E1632000DFD7C /* InfoPlist.strings in Resources */,
+				82407980133E1632000DFD7C /* MainWindow_iPhone.xib in Resources */,
+				82407987133E1632000DFD7C /* MainWindow_iPad.xib in Resources */,
+				822F0446133F502900BC9781 /* RootViewController_iPhone.xib in Resources */,
+				822F04C0133F9F5B00BC9781 /* RootViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82407960133E1631000DFD7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82407976133E1632000DFD7C /* main.m in Sources */,
+				82407979133E1632000DFD7C /* GameAppAppDelegate.m in Sources */,
+				8240797D133E1632000DFD7C /* GameAppAppDelegate_iPhone.m in Sources */,
+				82407984133E1632000DFD7C /* GameAppAppDelegate_iPad.m in Sources */,
+				822F0445133F502900BC9781 /* RootViewController_iPhone.m in Sources */,
+				822F04BF133F9F5B00BC9781 /* RootViewController_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82407971133E1632000DFD7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82407972133E1632000DFD7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8240797E133E1632000DFD7C /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8240797F133E1632000DFD7C /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		82407985133E1632000DFD7C /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82407986133E1632000DFD7C /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82407988133E1632000DFD7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82407989133E1632000DFD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8240798B133E1632000DFD7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vandad Nahavandipoor (J54K6K24Z3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vandad Nahavandipoor (J54K6K24Z3)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameApp/GameApp-Prefix.pch";
+				INFOPLIST_FILE = "GameApp/GameApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B68AE742-6EE9-4278-A48E-B01406001F36";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B68AE742-6EE9-4278-A48E-B01406001F36";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8240798C133E1632000DFD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vandad Nahavandipoor (J54K6K24Z3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vandad Nahavandipoor (J54K6K24Z3)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameApp/GameApp-Prefix.pch";
+				INFOPLIST_FILE = "GameApp/GameApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B68AE742-6EE9-4278-A48E-B01406001F36";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B68AE742-6EE9-4278-A48E-B01406001F36";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8240795E133E1631000DFD7C /* Build configuration list for PBXProject "Supporting Multiplayer Games and Matchmaking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82407988133E1632000DFD7C /* Debug */,
+				82407989133E1632000DFD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8240798A133E1632000DFD7C /* Build configuration list for PBXNativeTarget "GameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8240798B133E1632000DFD7C /* Debug */,
+				8240798C133E1632000DFD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8240795B133E1631000DFD7C /* Project object */;
+}
